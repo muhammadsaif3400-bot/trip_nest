@@ -422,6 +422,14 @@ label i {
     transform: translateY(-2px);
 }
 
+.map iframe{
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 30px;
+    border: 4px solid black !important;
+}
+
 .footer {
     background: #101820;
     color: #ffffff;
@@ -662,10 +670,13 @@ label i {
     .text {
         height: 280px;
     }
+    .text{
+        left: -3%;
+    }
 
     .text nav {
         height: 80px;
-        padding: 0 20px;
+        padding: 0 35px;
     }
 
     .text .logo h2,
@@ -766,7 +777,10 @@ label i {
 @media (min-width: 1025px) and (max-width: 1400px) {
 
     .text nav {
-        padding: 0 25px;
+        padding: 0 35px;
+    }
+    .text{
+        left: -3%;
     }
 
     .text .logo h2 {
